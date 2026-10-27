@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Conheça os filmes em cartaz, confira as sessões e prepare-se para sua próxima experiência no cinema.">
+
+    <title>CineMax | Seu cinema favorito</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <a href="index.html" class="logo" aria-label="CineMax - Página inicial">
+            CINE<span>MAX</span>
+        </a>
+
+        <nav aria-label="Menu principal">
+            <ul class="menu">
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="sessoes.html">Sessões</a></li>
+                <li><a href="ingressos.html">Ingressos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- DESTAQUE PRINCIPAL -->
+        <section class="destaque">
+            <div class="destaque-conteudo">
+                <p class="subtitulo">SUA PRÓXIMA AVENTURA COMEÇA AQUI</p>
+
+                <h1>Grandes histórias.<br>
+                    <span>Grandes emoções.</span>
+                </h1>
+
+                <p>
+                    Prepare a pipoca e venha viver experiências
+                    inesquecíveis na telona. Confira os filmes
+                    e encontre sua próxima sessão favorita!
+                </p>
+
+                <div class="botoes">
+                    <a href="filmes.html" class="botao botao-principal">
+                        Explorar filmes
+                    </a>
+
+                    <a href="sessoes.html" class="botao botao-secundario">
+                        Ver sessões
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FILMES EM DESTAQUE -->
+        <section class="secao-filmes" aria-labelledby="titulo-filmes">
+            <div class="titulo-secao">
+                <div>
+                    <p class="subtitulo">ESCOLHA SUA PRÓXIMA HISTÓRIA</p>
+                    <h2 id="titulo-filmes">Em destaque</h2>
+                </div>
+
+                <a href="filmes.html" class="link-ver-mais">
+                    Ver todos os filmes →
+                </a>
+            </div>
+
+            <div class="lista-filmes">
+
+                <article class="card-filme">
+                    <img
+                        src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                        alt="Cartaz do filme Oppenheimer"
+                        loading="lazy"
+                    >
+
+                    <div class="informacoes-filme">
+                        <span class="genero">Drama / História</span>
+                        <h3>Oppenheimer</h3>
+                        <p>Uma história sobre ciência, escolhas e consequências.</p>
+                        <a href="detalhes.html" class="botao-card">
+                            Ver detalhes
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-filme">
+                    <img
+                        src="https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+                        alt="Cartaz do filme Homem-Aranha: Através do Aranhaverso"
+                        loading="lazy"
+                    >
+
+                    <div class="informacoes-filme">
+                        <span class="genero">Animação / Aventura</span>
+                        <h3>Homem-Aranha</h3>
+                        <p>Uma aventura cheia de ação através do multiverso.</p>
+                        <a href="detalhes.html" class="botao-card">
+                            Ver detalhes
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-filme">
+                    <img
+                        src="https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+                        alt="Cartaz do filme Barbie"
+                        loading="lazy"
+                    >
+
+                    <div class="informacoes-filme">
+                        <span class="genero">Comédia / Aventura</span>
+                        <h3>Barbie</h3>
+                        <p>Uma jornada divertida de descobertas e identidade.</p>
+                        <a href="detalhes.html" class="botao-card">
+                            Ver detalhes
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CHAMADA PARA SESSÕES -->
+        <section class="chamada-sessoes">
+            <div>
+                <p class="subtitulo">NÃO PERCA A ESTREIA</p>
+                <h2>Seu lugar é na primeira fila!</h2>
+                <p>Consulte os horários e planeje sua próxima ida ao cinema.</p>
+            </div>
+
+            <a href="sessoes.html" class="botao botao-principal">
+                Consultar sessões
+            </a>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <a href="index.html" class="logo">
+            CINE<span>MAX</span>
+        </a>
+
+        <p>Grandes histórias merecem uma grande tela.</p>
+
+        <p class="creditos">
+            Projeto acadêmico desenvolvido em HTML e CSS.
+        </p>
+
+        <p class="copyright">
+            &copy; 2026 CineMax. Projeto fictício para fins educacionais.
+        </p>
+    </footer>
+
+</body>
+</html>
