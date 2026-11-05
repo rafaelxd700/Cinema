@@ -317,3 +317,23 @@ select:focus-visible
     padding: 40px 5%;
     text-align: center;
 }
+
+.rodape 
+{
+    background-color: var(--card);
+    padding: 30px 5%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.creditos 
+{
+    color: var(--texto-secundario);
+    margin-bottom: 10px;
+}
+
+.copyright 
+{
+    color: var(--texto-secundario);
+    font-size: 14px;
+}
