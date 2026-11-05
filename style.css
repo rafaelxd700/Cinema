@@ -337,3 +337,50 @@ select:focus-visible
     color: var(--texto-secundario);
     font-size: 14px;
 }
+
+@media (max-width: 768px) 
+{
+    .cabecalho 
+    {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu 
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .destaque 
+    {
+        padding: 40px 5%;
+    }
+
+    .botoes 
+    {
+        flex-wrap: wrap;
+    }
+
+    .lista-filmes 
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .detalhes-filme 
+    {
+        flex-direction: column;
+    }
+
+    .detalhes-cartaz 
+    {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .informacoes-basicas 
+    {
+        gap: 10px;
+    }
+}
