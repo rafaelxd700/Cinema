@@ -108,3 +108,41 @@ select:focus-visible
     font-size: 18px;
     margin: 15px 0 25px;
 }
+
+.botoes 
+{
+    display: flex;
+    gap: 15px;
+}
+
+.botao 
+{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botao-principal 
+{
+    background-color: var(--vermelho);
+    color: var(--texto);
+}
+
+.botao-principal:hover 
+{
+    background-color: #b80710;
+}
+
+.botao-secundario 
+{
+    background-color: var(--card);
+    color: var(--texto);
+    border: 1px solid var(--texto-secundario);
+}
+
+.botao-secundario:hover 
+{
+    background-color: #303039;
+}
