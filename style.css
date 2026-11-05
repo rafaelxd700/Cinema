@@ -262,3 +262,23 @@ select:focus-visible
     margin: 20px 0;
     color: var(--texto-secundario);
 }
+
+.lista-sessoes 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 5%;
+}
+
+.card-sessao 
+{
+    background-color: var(--card);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.info-sessao 
+{
+    margin-bottom: 15px;
+}
