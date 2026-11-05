@@ -87,3 +87,24 @@ select:focus-visible
 {
     color: var(--vermelho);
 }
+
+.destaque 
+{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 60px 5%;
+    background-color: var(--card);
+}
+
+.destaque-conteudo 
+{
+    max-width: 600px;
+}
+
+.subtitulo 
+{
+    color: var(--texto-secundario);
+    font-size: 18px;
+    margin: 15px 0 25px;
+}
