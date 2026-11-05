@@ -205,3 +205,14 @@ select:focus-visible
 {
     background-color: #b80710;
 }
+
+.banner-filmes 
+{
+    padding: 40px 5%;
+}
+
+.banner-filmes h1 
+{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
