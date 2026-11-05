@@ -282,3 +282,38 @@ select:focus-visible
 {
     margin-bottom: 15px;
 }
+
+.horarios 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.horario 
+{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: var(--fundo);
+    border: 1px solid var(--vermelho);
+    border-radius: 5px;
+    color: var(--texto);
+    transition: background-color 0.3s;
+}
+
+.horario:hover 
+{
+    background-color: var(--vermelho);
+}
+
+.aviso-sessoes 
+{
+    color: var(--texto-secundario);
+    margin-top: 20px;
+}
+
+.chamada-sessoes 
+{
+    padding: 40px 5%;
+    text-align: center;
+}
