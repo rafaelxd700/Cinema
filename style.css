@@ -1,0 +1,14 @@
+/*Estilos gerais*/
+:root {
+    --fundo: #101014;
+    --card: #1C1C24;
+    --vermelho: #E50914;
+    --texto: #F4F4F5;
+    --texto-secundario: #A1A1AA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
