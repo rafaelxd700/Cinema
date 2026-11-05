@@ -216,3 +216,15 @@ select:focus-visible
     font-size: 32px;
     margin-bottom: 10px;
 }
+
+.breadcrumb 
+{
+    color: var(--texto-secundario);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb a:hover 
+{
+    color: var(--vermelho);
+}
