@@ -253,3 +253,12 @@ select:focus-visible
 {
     flex: 1;
 }
+
+.informacoes-basicas 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+    color: var(--texto-secundario);
+}
