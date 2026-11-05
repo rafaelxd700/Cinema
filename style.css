@@ -70,3 +70,20 @@ select:focus-visible
 {
     color: var(--vermelho);
 }
+
+.menu 
+{
+    display: flex;
+    gap: 25px;
+}
+
+.menu a 
+{
+    color: var(--texto-secundario);
+    transition: color 0.3s;
+}
+
+.menu a:hover 
+{
+    color: var(--vermelho);
+}
