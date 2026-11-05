@@ -145,3 +145,20 @@ select:focus-visible
 {
     background-color: #303039;
 }
+.secao-filmes 
+{
+    padding: 50px 5%;
+}
+
+.titulo-secao 
+{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.lista-filmes 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
