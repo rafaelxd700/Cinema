@@ -50,6 +50,7 @@ select:focus-visible
     outline-offset: 3px;
 }
 
+/* CABEÇALHO E NAVEGAÇÃO */
 .cabecalho 
 {
     display: flex;
@@ -88,6 +89,7 @@ select:focus-visible
     color: var(--vermelho);
 }
 
+/* PÁGINA INICIAL */
 .destaque 
 {
     display: flex;
@@ -145,6 +147,8 @@ select:focus-visible
 {
     background-color: #303039;
 }
+
+/* SEÇÃO DE FILMES */
 .secao-filmes 
 {
     padding: 50px 5%;
@@ -206,6 +210,7 @@ select:focus-visible
     background-color: #b80710;
 }
 
+/* PÁGINA DE FILMES */
 .banner-filmes 
 {
     padding: 40px 5%;
@@ -229,6 +234,7 @@ select:focus-visible
     color: var(--vermelho);
 }
 
+/* DETALHES DO FILME */
 .detalhes-filme 
 {
     display: flex;
@@ -263,6 +269,7 @@ select:focus-visible
     color: var(--texto-secundario);
 }
 
+/* PÁGINA DE SESSÕES */
 .lista-sessoes 
 {
     display: flex;
@@ -318,6 +325,7 @@ select:focus-visible
     text-align: center;
 }
 
+/* RODAPÉ */
 .rodape 
 {
     background-color: var(--card);
@@ -338,6 +346,7 @@ select:focus-visible
     font-size: 14px;
 }
 
+/* RESPONSIVIDADE */
 @media (max-width: 768px) 
 {
     .cabecalho 
