@@ -306,10 +306,10 @@ select:focus-visible
     background-color: var(--vermelho);
 }
 
-.aviso-sessoes 
-{
+.aviso-sessoes {
     color: var(--texto-secundario);
     margin-top: 20px;
+    padding: 0 5%;
 }
 
 .chamada-sessoes 
