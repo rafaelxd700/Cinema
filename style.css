@@ -469,3 +469,24 @@ select:focus-visible
 {
     cursor: pointer;
 }
+
+.resumo-total
+{
+    background-color: var(--card);
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.resumo-total h2
+{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.resumo-total p
+{
+    color: var(--vermelho);
+    font-size: 28px;
+    font-weight: bold;
+}
