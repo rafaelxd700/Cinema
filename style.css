@@ -393,7 +393,6 @@ select:focus-visible
         gap: 10px;
     }
 
-        /* RESPONSIVIDADE DA PÁGINA DE SESSÕES */
     .card-sessao
     {
         padding: 20px;
@@ -412,6 +411,24 @@ select:focus-visible
     .chamada-sessoes
     {
         padding: 30px 5%;
+    }
+
+    .compra-ingressos
+    {
+        padding: 25px 5%;
+        margin: 20px auto;
+    }
+
+    .compra-ingressos h1
+    {
+        font-size: 26px;
+    }
+
+    .resumo-sessao,
+    .form-ingressos,
+    .resumo-total
+    {
+        padding: 20px;
     }
 }
 
