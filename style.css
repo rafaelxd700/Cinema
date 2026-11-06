@@ -392,6 +392,27 @@ select:focus-visible
     {
         gap: 10px;
     }
+
+        /* RESPONSIVIDADE DA PÁGINA DE SESSÕES */
+    .card-sessao
+    {
+        padding: 20px;
+    }
+
+    .horarios
+    {
+        gap: 10px;
+    }
+
+    .horario
+    {
+        padding: 8px 12px;
+    }
+
+    .chamada-sessoes
+    {
+        padding: 30px 5%;
+    }
 }
 
 /* PÁGINA DE INGRESSOS */
