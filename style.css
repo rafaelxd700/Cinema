@@ -393,3 +393,42 @@ select:focus-visible
         gap: 10px;
     }
 }
+
+/* PÁGINA DE INGRESSOS */
+.compra-ingressos
+{
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.compra-ingressos h1
+{
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.resumo-sessao
+{
+    background-color: var(--card);
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.resumo-sessao h2
+{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.resumo-sessao p
+{
+    margin-bottom: 8px;
+    color: var(--texto-secundario);
+}
+
+.resumo-sessao strong
+{
+    color: var(--texto);
+}
