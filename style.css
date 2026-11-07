@@ -528,3 +528,26 @@ select:focus-visible
     font-size: 28px;
     font-weight: bold;
 }
+
+/* PÁGINA DE CONTATO */
+.contato
+{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+    padding: 30px 5%;
+}
+
+.formulario-contato,
+.informacoes-contato
+{
+    background-color: var(--card);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contato h2
+{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
