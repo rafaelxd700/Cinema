@@ -430,6 +430,19 @@ select:focus-visible
     {
         padding: 20px;
     }
+
+    .contato
+    {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 5%;
+    }
+
+    .formulario-contato,
+    .informacoes-contato
+    {
+        padding: 20px;
+    }
 }
 
 /* PÁGINA DE INGRESSOS */
