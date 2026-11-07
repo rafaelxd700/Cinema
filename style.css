@@ -222,18 +222,6 @@ select:focus-visible
     margin-bottom: 10px;
 }
 
-.breadcrumb 
-{
-    color: var(--texto-secundario);
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-.breadcrumb a:hover 
-{
-    color: var(--vermelho);
-}
-
 /* DETALHES DO FILME */
 .detalhes-filme 
 {
