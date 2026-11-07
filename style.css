@@ -551,3 +551,38 @@ select:focus-visible
     font-size: 22px;
     margin-bottom: 25px;
 }
+
+.campo-contato
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.campo-contato label
+{
+    font-weight: bold;
+}
+
+.campo-contato input,
+.campo-contato textarea
+{
+    width: 100%;
+    padding: 12px;
+    background-color: var(--fundo);
+    color: var(--texto);
+    border: 1px solid var(--texto-secundario);
+    border-radius: 5px;
+}
+
+.campo-contato textarea
+{
+    resize: vertical;
+}
+
+.campo-contato input:focus,
+.campo-contato textarea:focus
+{
+    border-color: var(--vermelho);
+}
