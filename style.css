@@ -586,3 +586,20 @@ select:focus-visible
 {
     border-color: var(--vermelho);
 }
+
+.item-contato
+{
+    margin-bottom: 25px;
+}
+
+.item-contato h3
+{
+    color: var(--vermelho);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.item-contato p
+{
+    color: var(--texto-secundario);
+}
